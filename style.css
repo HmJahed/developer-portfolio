@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.name_colour{
+    color: orange;
+}
+.filxble_container{
+    display:flex ;
+    margin-bottom: 100px;
+}
+.half_wigth{
+    width: 50%;
+    padding-left: 5%;
+}
+.half_wigth img {
+    width: 80%;
+}
+.link-batton{
+       text-decoration: none;
+       background: linear-gradient( orange , tomato);
+       padding: 10px 40px;
+       border-radius: 5px;
+       color: white;
+       font width: 700;
+     
+}
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Experiences-area{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+   
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby_developer{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon, tomato);
+    border-image-slice: 1;
+}    
+footer p{
+    text-align: center;
+}
